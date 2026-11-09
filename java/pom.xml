@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.uchiha-fire</groupId>
+    <artifactId>idguru</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>idguru</name>
+    <description>Universal, zero-dependency identifier generation, fluent builder, and reverse-inspection engine for Java 8+.</description>
+    <url>https://uuidv7.guru</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>uchiha-fire</id>
+            <name>Shubham Sharma</name>
+            <email>sharmashubham25962@gmail.com</email>
+            <url>https://github.com/uchiha-fire</url>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/uchiha-fire/idguru.git</connection>
+        <developerConnection>scm:git:ssh://github.com:uchiha-fire/idguru.git</developerConnection>
+        <url>https://github.com/uchiha-fire/idguru</url>
+    </scm>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <!-- Zero runtime dependencies -->
+    </dependencies>
+</project>

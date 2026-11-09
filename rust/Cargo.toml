@@ -1,0 +1,20 @@
+[package]
+name = "idguru"
+version = "1.0.0"
+edition = "2021"
+authors = ["Shubham Sharma <sharmashubham25962@gmail.com>"]
+description = "Universal, zero-dependency identifier generation, fluent builder, and reverse-inspection engine for Rust."
+license = "MIT"
+repository = "https://github.com/uchiha-fire/idguru"
+homepage = "https://uuidv7.guru"
+keywords = ["uuidv7", "rfc9562", "ulid", "snowflake", "nanoid"]
+categories = ["algorithms", "data-structures", "development-tools"]
+readme = "README.md"
+
+[dependencies]
+getrandom = "0.2"
+serde = { version = "1.0", optional = true, default-features = false, features = ["alloc"] }
+
+[features]
+default = ["std"]
+std = []

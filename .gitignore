@@ -1,0 +1,44 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# TypeScript / Node
+node_modules/
+dist/
+*.tsbuildinfo
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+
+# Go
+bin/
+*.exe
+*.test
+*.out
+
+# Java
+.gradle/
+build/
+target/
+out/
+*.class
+*.jar
+*.war
+
+# Rust
+target/
+**/*.rs.bk
+Cargo.lock
+

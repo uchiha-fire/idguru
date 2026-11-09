@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "idguru"
+version = "1.0.0"
+description = "Universal, zero-dependency identifier generation, fluent builder, and reverse-inspection engine for Python."
+readme = "README.md"
+authors = [
+    { name = "Shubham Sharma", email = "sharmashubham25962@gmail.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+keywords = [
+    "idguru",
+    "uuidv7",
+    "rfc9562",
+    "uuid",
+    "ulid",
+    "snowflake",
+    "nanoid",
+    "ksuid",
+    "id-generator",
+    "id-inspector"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+
+[project.urls]
+Homepage = "https://uuidv7.guru"
+Repository = "https://github.com/uchiha-fire/idguru"
+Issues = "https://github.com/uchiha-fire/idguru/issues"
+
+[tool.setuptools.package-data]
+idguru = ["py.typed"]

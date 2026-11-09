@@ -1,0 +1,58 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+    id 'signing'
+}
+
+group = 'io.github.uchiha-fire'
+version = '1.0.0'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+    withJavadocJar()
+    withSourcesJar()
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+            pom {
+                name = 'idguru'
+                description = 'Universal, zero-dependency identifier generation, fluent builder, and reverse-inspection engine for Java 8+.'
+                url = 'https://uuidv7.guru'
+                licenses {
+                    license {
+                        name = 'The MIT License'
+                        url = 'https://opensource.org/licenses/MIT'
+                    }
+                }
+                developers {
+                    developer {
+                        id = 'uchiha-fire'
+                        name = 'Shubham Sharma'
+                        email = 'sharmashubham25962@gmail.com'
+                    }
+                }
+                scm {
+                    connection = 'scm:git:git://github.com/uchiha-fire/idguru.git'
+                    developerConnection = 'scm:git:ssh://github.com:uchiha-fire/idguru.git'
+                    url = 'https://github.com/uchiha-fire/idguru'
+                }
+            }
+        }
+    }
+}

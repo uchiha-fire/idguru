@@ -1,0 +1,60 @@
+{
+  "name": "idguru",
+  "version": "1.0.0",
+  "description": "Universal, zero-dependency identifier generation, fluent builder, and reverse-inspection engine for TypeScript & JavaScript.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "idguru",
+    "uuidv7",
+    "rfc9562",
+    "uuid",
+    "ulid",
+    "ksuid",
+    "snowflake",
+    "nanoid",
+    "prefixed-id",
+    "id-generator",
+    "id-inspector"
+  ],
+  "author": "Shubham Sharma <sharmashubham25962@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uchiha-fire/idguru.git",
+    "directory": "typescript"
+  },
+  "bugs": {
+    "url": "https://github.com/uchiha-fire/idguru/issues"
+  },
+  "homepage": "https://uuidv7.guru",
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8"
+  }
+}
+
