@@ -101,4 +101,4 @@ public class App {
 
 ## License
 
-MIT © [Shubham Sharma](https://github.com/uchiha-fire)
+MIT © [Shubham Sharma](https://github.com/uchiha-fire) • [LinkedIn](https://www.linkedin.com/in/shubham-sharma-28487819b/)

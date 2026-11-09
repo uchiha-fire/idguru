@@ -12,6 +12,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald?style=for-the-badge)](LICENSE)
 [![Companion Web App](https://img.shields.io/badge/Live_Tool-uuidv7.guru-orange?style=for-the-badge)](https://uuidv7.guru)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/shubham-sharma-28487819b/)
 
 </div>
 
@@ -200,6 +201,16 @@ cd java && javac --release 8 -d bin src/main/java/guru/id/*.java src/test/java/g
 
 ---
 
+## 👤 Author
+
+**Shubham Sharma**
+- **GitHub**: [@uchiha-fire](https://github.com/uchiha-fire)
+- **LinkedIn**: [shubham-sharma-28487819b](https://www.linkedin.com/in/shubham-sharma-28487819b/)
+- **Web**: [uuidv7.guru](https://uuidv7.guru)
+
+---
+
 ## 📄 License
 
 MIT © [Shubham Sharma](https://github.com/uchiha-fire)
+

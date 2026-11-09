@@ -85,4 +85,4 @@ print(meta.entropy_bits)  # 74
 
 ## License
 
-MIT © [Shubham Sharma](https://github.com/uchiha-fire)
+MIT © [Shubham Sharma](https://github.com/uchiha-fire) • [LinkedIn](https://www.linkedin.com/in/shubham-sharma-28487819b/)
